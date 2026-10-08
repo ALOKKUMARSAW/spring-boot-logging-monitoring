@@ -1,0 +1,20 @@
+2026-10-08 15:17:21.956 [http-nio-8081-exec-1] INFO  c.amazon.controller.OrderController - Received request to fetch invoices - page: 0, size: 2
+2026-10-08 15:17:21.958 [http-nio-8081-exec-1] INFO  com.amazon.service.OrderService - Fetching invoices - page: 0, size: 2
+2026-10-08 15:17:22.375 [http-nio-8081-exec-1] INFO  com.amazon.service.OrderService - Fetched 2 invoices from database for page: 0, size: 2
+2026-10-08 15:17:22.375 [http-nio-8081-exec-1] INFO  com.amazon.service.OrderService - Successfully prepared 2 order responses
+2026-10-08 15:17:22.375 [http-nio-8081-exec-1] INFO  c.amazon.controller.OrderController - Order list request completed successfully - returned 2 invoices
+2026-10-08 15:17:24.534 [http-nio-8081-exec-4] INFO  c.amazon.controller.OrderController - Received request to fetch invoices - page: 0, size: 2
+2026-10-08 15:17:24.534 [http-nio-8081-exec-4] INFO  com.amazon.service.OrderService - Fetching invoices - page: 0, size: 2
+2026-10-08 15:17:24.551 [http-nio-8081-exec-4] INFO  com.amazon.service.OrderService - Fetched 2 invoices from database for page: 0, size: 2
+2026-10-08 15:17:24.551 [http-nio-8081-exec-4] INFO  com.amazon.service.OrderService - Successfully prepared 2 order responses
+2026-10-08 15:17:24.551 [http-nio-8081-exec-4] INFO  c.amazon.controller.OrderController - Order list request completed successfully - returned 2 invoices
+2026-10-08 15:17:25.879 [http-nio-8081-exec-2] INFO  c.amazon.controller.OrderController - Received request to fetch invoices - page: 0, size: 2
+2026-10-08 15:17:25.880 [http-nio-8081-exec-2] INFO  com.amazon.service.OrderService - Fetching invoices - page: 0, size: 2
+2026-10-08 15:17:25.909 [http-nio-8081-exec-2] INFO  com.amazon.service.OrderService - Fetched 2 invoices from database for page: 0, size: 2
+2026-10-08 15:17:25.909 [http-nio-8081-exec-2] INFO  com.amazon.service.OrderService - Successfully prepared 2 order responses
+2026-10-08 15:17:25.909 [http-nio-8081-exec-2] INFO  c.amazon.controller.OrderController - Order list request completed successfully - returned 2 invoices
+2026-10-08 15:17:27.254 [http-nio-8081-exec-5] INFO  c.amazon.controller.OrderController - Received request to fetch invoices - page: 0, size: 2
+2026-10-08 15:17:27.254 [http-nio-8081-exec-5] INFO  com.amazon.service.OrderService - Fetching invoices - page: 0, size: 2
+2026-10-08 15:17:27.270 [http-nio-8081-exec-5] INFO  com.amazon.service.OrderService - Fetched 2 invoices from database for page: 0, size: 2
+2026-10-08 15:17:27.270 [http-nio-8081-exec-5] INFO  com.amazon.service.OrderService - Successfully prepared 2 order responses
+2026-10-08 15:17:27.270 [http-nio-8081-exec-5] INFO  c.amazon.controller.OrderController - Order list request completed successfully - returned 2 invoices

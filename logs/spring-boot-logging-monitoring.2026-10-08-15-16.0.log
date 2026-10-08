@@ -1,0 +1,13 @@
+2026-10-08 15:16:16.602 [http-nio-8081-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-10-08 15:16:19.868 [http-nio-8081-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-10-08 15:16:26.012 [http-nio-8081-exec-9] INFO  c.amazon.controller.OrderController - Received request to create invoice for customer: Alok Kumar Saw
+2026-10-08 15:16:26.013 [http-nio-8081-exec-9] INFO  com.amazon.service.OrderService - Creating order for customer: Alok Kumar Saw
+2026-10-08 15:16:26.207 [http-nio-8081-exec-9] INFO  com.amazon.service.OrderService - Order saved successfully with database ID: 20
+2026-10-08 15:16:26.207 [http-nio-8081-exec-9] INFO  com.amazon.service.OrderService - Invoice response created successfully for invoice ID: 20
+2026-10-08 15:16:26.207 [http-nio-8081-exec-9] INFO  c.amazon.controller.OrderController - Invoice creation request completed successfully for customer: Alok Kumar Saw
+2026-10-08 15:16:29.082 [http-nio-8081-exec-10] INFO  c.amazon.controller.OrderController - Received request to create invoice for customer: Alok Kumar Saw
+2026-10-08 15:16:29.083 [http-nio-8081-exec-10] INFO  com.amazon.service.OrderService - Creating order for customer: Alok Kumar Saw
+2026-10-08 15:16:29.092 [http-nio-8081-exec-10] INFO  com.amazon.service.OrderService - Order saved successfully with database ID: 21
+2026-10-08 15:16:29.093 [http-nio-8081-exec-10] INFO  com.amazon.service.OrderService - Invoice response created successfully for invoice ID: 21
+2026-10-08 15:16:29.093 [http-nio-8081-exec-10] INFO  c.amazon.controller.OrderController - Invoice creation request completed successfully for customer: Alok Kumar Saw
+2026-10-08 15:16:41.457 [http-nio-8081-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]

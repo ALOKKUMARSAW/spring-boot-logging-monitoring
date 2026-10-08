@@ -1,0 +1,5 @@
+2026-10-08 15:07:09.677 [http-nio-8081-exec-6] INFO  c.amazon.controller.OrderController - Received request to create invoice for customer: Alok Kumar Saw
+2026-10-08 15:07:09.680 [http-nio-8081-exec-6] INFO  com.amazon.service.OrderService - Creating order for customer: Alok Kumar Saw
+2026-10-08 15:07:09.693 [http-nio-8081-exec-6] INFO  com.amazon.service.OrderService - Order saved successfully with database ID: 19
+2026-10-08 15:07:09.693 [http-nio-8081-exec-6] INFO  com.amazon.service.OrderService - Invoice response created successfully for invoice ID: 19
+2026-10-08 15:07:09.693 [http-nio-8081-exec-6] INFO  c.amazon.controller.OrderController - Invoice creation request completed successfully for customer: Alok Kumar Saw

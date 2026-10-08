@@ -1,0 +1,67 @@
+2026-10-08 15:04:09.030 [http-nio-8081-exec-1] INFO  c.amazon.controller.OrderController - Received request to create invoice for customer: Alok Kumar Saw
+2026-10-08 15:04:09.032 [http-nio-8081-exec-1] INFO  com.amazon.service.OrderService - Creating order for customer: Alok Kumar Saw
+2026-10-08 15:04:09.242 [http-nio-8081-exec-1] INFO  com.amazon.service.OrderService - Order saved successfully with database ID: 14
+2026-10-08 15:04:09.242 [http-nio-8081-exec-1] INFO  com.amazon.service.OrderService - Invoice response created successfully for invoice ID: 14
+2026-10-08 15:04:09.242 [http-nio-8081-exec-1] INFO  c.amazon.controller.OrderController - Invoice creation request completed successfully for customer: Alok Kumar Saw
+2026-10-08 15:04:12.217 [http-nio-8081-exec-3] INFO  c.amazon.controller.OrderController - Received request to create invoice for customer: Alok Kumar Saw
+2026-10-08 15:04:12.217 [http-nio-8081-exec-3] INFO  com.amazon.service.OrderService - Creating order for customer: Alok Kumar Saw
+2026-10-08 15:04:12.228 [http-nio-8081-exec-3] INFO  com.amazon.service.OrderService - Order saved successfully with database ID: 15
+2026-10-08 15:04:12.228 [http-nio-8081-exec-3] INFO  com.amazon.service.OrderService - Invoice response created successfully for invoice ID: 15
+2026-10-08 15:04:12.228 [http-nio-8081-exec-3] INFO  c.amazon.controller.OrderController - Invoice creation request completed successfully for customer: Alok Kumar Saw
+2026-10-08 15:04:13.656 [http-nio-8081-exec-5] INFO  c.amazon.controller.OrderController - Received request to create invoice for customer: Alok Kumar Saw
+2026-10-08 15:04:13.656 [http-nio-8081-exec-5] INFO  com.amazon.service.OrderService - Creating order for customer: Alok Kumar Saw
+2026-10-08 15:04:13.669 [http-nio-8081-exec-5] INFO  com.amazon.service.OrderService - Order saved successfully with database ID: 16
+2026-10-08 15:04:13.669 [http-nio-8081-exec-5] INFO  com.amazon.service.OrderService - Invoice response created successfully for invoice ID: 16
+2026-10-08 15:04:13.669 [http-nio-8081-exec-5] INFO  c.amazon.controller.OrderController - Invoice creation request completed successfully for customer: Alok Kumar Saw
+2026-10-08 15:04:24.943 [RMI TCP Connection(3)-192.168.0.60] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-08 15:04:24.948 [RMI TCP Connection(3)-192.168.0.60] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-08 15:04:24.950 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2026-10-08 15:04:24.964 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-08 15:04:24.965 [RMI TCP Connection(3)-192.168.0.60] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2026-10-08 15:04:24.982 [RMI TCP Connection(3)-192.168.0.60] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-08 15:04:24.984 [RMI TCP Connection(3)-192.168.0.60] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-08 15:04:24.998 [RMI TCP Connection(3)-192.168.0.60] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-08 15:04:39.662 [main] INFO  c.a.SpringBootLoggingMonitoringApplication - Starting SpringBootLoggingMonitoringApplication using Java 21.0.7 with PID 23888 (D:\K.D_Advanced_Java\spring-boot-logging-monitoring\target\classes started by Alok Saw in D:\K.D_Advanced_Java\spring-boot-logging-monitoring)
+2026-10-08 15:04:39.665 [main] INFO  c.a.SpringBootLoggingMonitoringApplication - The following 1 profile is active: "dev"
+2026-10-08 15:04:40.588 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-08 15:04:40.589 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-08 15:04:40.719 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 120 ms. Found 1 JPA repository interface.
+2026-10-08 15:04:40.737 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-08 15:04:40.738 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-08 15:04:40.757 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.amazon.repository.OrderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-10-08 15:04:40.757 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2026-10-08 15:04:41.377 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-10-08 15:04:41.391 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-08 15:04:41.393 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-08 15:04:41.394 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-08 15:04:41.474 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1766 ms
+2026-10-08 15:04:41.766 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-08 15:04:41.821 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-08 15:04:42.322 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-08 15:04:42.352 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-08 15:04:42.699 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b5f022f
+2026-10-08 15:04:42.701 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-08 15:04:42.750 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-08 15:04:42.769 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/redis_invoice_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: redis_invoice_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-08 15:04:43.977 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-08 15:04:44.046 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-08 15:04:44.133 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-08 15:04:44.244 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-08 15:04:45.254 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 7 endpoints beneath base path '/actuator'
+2026-10-08 15:04:45.337 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-10-08 15:04:45.355 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-10-08 15:04:45.367 [main] INFO  c.a.SpringBootLoggingMonitoringApplication - Started SpringBootLoggingMonitoringApplication in 6.413 seconds (process running for 6.893)
+2026-10-08 15:04:45.864 [RMI TCP Connection(2)-192.168.0.60] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-08 15:04:45.865 [RMI TCP Connection(2)-192.168.0.60] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-08 15:04:45.868 [RMI TCP Connection(2)-192.168.0.60] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
